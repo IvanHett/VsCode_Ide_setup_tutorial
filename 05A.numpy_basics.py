@@ -5,7 +5,7 @@
 # 1. IMPORT NUMPY
 import numpy as np
 
-print("---- 1. Creating Arrays ----")
+print("______________________________1. Creating Arrays______________________________")
 
 # 2. CREATE ARRAYS
 arr1 = np.array([1, 2, 3, 4])
@@ -15,21 +15,21 @@ print("Array 1:", arr1)
 print("Array 2:", arr2)
 
 
-print("\n---- 2. Basic Operations ----")
+print("\n______________________________2. Basic Operations__________________________________")
 
 # 3. ARRAY OPERATIONS
 print("Addition:", arr1 + arr2)
 print("Multiplication:", arr1 * arr2)
 
 
-print("\n---- 3. Indexing ----")
+print("\n______________________________3. Indexing__________________________________")
 
 # 4. INDEXING
 print("First element:", arr1[0])
 print("Last element:", arr1[-1])
 
 
-print("\n---- 4. Useful Functions ----")
+print("\n______________________________4. Useful Functions__________________________________")
 
 # 5. USEFUL FUNCTIONS
 print("Mean:", np.mean(arr1))
@@ -37,7 +37,7 @@ print("Sum:", np.sum(arr1))
 print("Max:", np.max(arr1))
 
 
-print("\n---- 5. Multi-Dimensional Arrays ----")
+print("\n______________________________5. Multi-Dimensional Arrays__________________________________")
 
 # 6. 2D ARRAY
 matrix = np.array([[1, 2, 3],
@@ -47,7 +47,7 @@ print("Matrix:\n", matrix)
 print("Shape:", matrix.shape)
 
 
-print("\n---- 6. Real Example ----")
+print("\n______________________________6. Real Example__________________________________")
 
 # 7. REAL USE CASE
 prices = np.array([10, 20, 30])
