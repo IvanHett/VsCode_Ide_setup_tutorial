@@ -13,7 +13,9 @@ import pandas as pd
 
 df = pd.read_csv("04Z_ASSET_customers-100.csv")
 
+print("_____________________________________________df.to_string()____________________________________________________")
 print(df.to_string())
 
 new_df = df.dropna()
-print(new_df)
+print("_____________________________________________new_df.to_string()____________________________________________________")
+print(new_df.to_string())
