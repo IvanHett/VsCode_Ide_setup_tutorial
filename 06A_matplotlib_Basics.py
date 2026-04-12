@@ -6,5 +6,10 @@ import numpy as np
 print(plt.__version__)
 
 #plotting 
-
+import matplotlib.pyplot as plt
 xpoints = np.array([1,8])
+ypoints = np.array([2,5])
+
+plt.plot(xpoints,ypoints)
+plt.show()
+
